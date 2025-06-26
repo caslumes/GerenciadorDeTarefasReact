@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Tasks from "./components/tasks";
+import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
 import { v4 } from "uuid";
 import Title from "./components/Title";
@@ -59,9 +59,7 @@ function App() {
   return (
     <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
       <div className="w-[500px] space-y-4">
-        <Title>
-          Gerenciador de Tarefas
-        </Title>
+        <Title>Gerenciador de Tarefas</Title>
         <AddTask onAdd={onAdd} />
         <Tasks tasks={tasks} onTaskClick={onTaskClick} onRemove={onRemove} />
       </div>
