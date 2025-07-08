@@ -40,7 +40,7 @@ Para rodar este projeto em sua máquina local, siga os passos abaixo:
     ```
 4.  **Inicie a aplicação:**
     ```bash
-    npm start
+    npm run dev
     ```
 
 Pronto! Agora você pode abrir `http://localhost:3000` no seu navegador.
